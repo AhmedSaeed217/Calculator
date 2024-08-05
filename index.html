@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A powerful and easy-to-use calculator app that can handle basic arithmetic operations. Perfect for students, and anyone who needs a reliable calculator at their fingertips.">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <!-- Css Link  -->
+   <link rel="stylesheet" href="css/style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    
+<section class="calculator">
+        <input readonly  id="displayArea">
+        <div class="buttons">
+        <button onclick="display('+')" class="custom-button">+</button>
+        <button onclick="display('7')">7</button>
+        <button onclick="display('8')">8</button>
+        <button onclick="display('9')">9</button>
+        <button onclick="display('-')" class="custom-button">-</button>
+        <button onclick="display('4')">4</button>
+        <button onclick="display('5')">5</button>
+        <button onclick="display('6')">6</button>
+        <button onclick="display('*')" class="custom-button">*</button>
+        <button onclick="display('1')">1</button>
+        <button onclick="display('2')">2</button>
+        <button onclick="display('3')">3</button>
+        <button onclick="display('/')" class="custom-button">/</button>
+        <button onclick="display('0')">0</button>
+        <button onclick="display('.')">.</button>
+        <button onclick="getResult()">=</button>
+        <button onclick="clearDisplayArea()" class="custom-button">AC</button>
+
+    </div>
+
+</section>
+
+
+<!-- Js File -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
